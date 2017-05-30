@@ -12,5 +12,5 @@ Not really, it just search for "cyber" occurrencies inside the article body :)
 Usage:
 
 ```
-./FuffaDetector.py [url]
+./FuffaDetector.py [URLS]
 ```
