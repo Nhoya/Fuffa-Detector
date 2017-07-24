@@ -25,7 +25,7 @@ for url in sys.argv[1:]:
     text = '\n'.join(chunk for chunk in chunks if chunk)
 
 
-    regex = r"cyber*"
+    regex = r"cyber"
     matches = re.finditer(regex,text,re.IGNORECASE)
 
     for cyberNum, cyber in enumerate(matches):
